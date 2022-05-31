@@ -1,0 +1,1029 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #212529;
+ 
+}
+.navbar{
+    width: auto;
+height: 66px;
+left: 50px;
+top: 17px;
+background-color: black;
+padding-right: 30px;
+
+
+}
+.navbar .btn{
+    box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: 5px;
+padding: 12px 26px;
+float: right;
+width: 121px;
+height: 54px;
+left: 1271px;
+top: 23.06px;
+background: #FFB742;
+border: 2px solid #FFB742;
+border-radius: 50px;
+
+}
+.navbar .menu{
+    display: flex;
+
+padding: 10px;
+gap: 20px;
+
+
+width: 429px;
+height: 47px;
+left: 491px;
+top: 29.12px;
+margin: 0px 35%;
+}
+.navbar .a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration:none;
+    font-size: 15px;
+}
+.a:hover{
+    color: greenyellow;
+
+}
+ .a.active{
+
+    color: #FFB742;
+ }
+
+
+.navbar .navıco{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 12px;
+    gap: 5px;
+    background-repeat: no-repeat;
+float: left;
+    width: 100px;
+    height: 66px;
+    left: 50px;
+    top: 17px;
+   background-image: url("Frame.png"); 
+}
+.profalan{
+    width: auto;
+height: 458.73px;
+left: 238px;
+top: 191px;
+margin-top: 10px;
+
+text-align: center;
+align-items: center;
+
+}
+.profalan .prof{
+    width: 500;
+height: 458.73px;
+left: 238px;
+top: 191px;
+margin-top: 50px;
+margin-left: 35%;
+text-align: center;
+align-items: center;
+
+}
+.ısımalan{
+    width:auto;
+height: 51px;
+left: 535px;
+top: 191px;
+
+align-items: center;
+text-align: center;
+
+
+color: #FFFFFF;
+}
+.ünvanalan{
+    width:auto;
+height: 51px;
+left: 535px;
+top: 191px;
+
+align-items: center;
+text-align: center;
+
+
+color: #FFFFFF;
+}
+.acıklamanalan{
+    width:auto;
+height: 51px;
+left: 535px;
+top: 191px;
+
+align-items: center;
+text-align: center;
+
+
+color: #FFFFFF;
+}
+.ısım{
+
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+line-height: 51px;
+
+/*                        */
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+
+line-height: 51px;
+
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
+.unvan{
+
+    width: 964px;
+height: 91px;
+left: 238px;
+top: 238px;
+font-family: 'Inter';
+font-style: normal;
+align-items: center;
+text-align: center;
+font-size: 45px;
+color: white;
+line-height: 51px;
+
+
+
+/*                     */
+
+
+font-weight: 700;
+font-size: 48px;
+line-height: 91px;
+
+
+display: flex;
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+}
+.acıklama{
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+line-height: 51px;
+
+/*   */
+margin-top: 50px;
+width: 800px;
+height: 50px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+
+line-height: 51px;
+/* identical to box height, or 211% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
+.avataralan{
+    width: auto;
+height: 222.73px;
+left: 625px;
+top: 427px;
+align-items: center;
+text-align: center;
+line-height: 51px;
+
+
+}
+.avatar{
+ width: 210px;
+height: 222.73px;
+background-image: url("avatar.png");
+margin-left: 30%;
+background-repeat:no-repeat;
+
+}
+.meter{
+    width: auto;
+height: 120px;
+left: 72px;
+top: 786px;
+background-color: re;
+gap: 10%;
+display: flex;
+margin: 0px 10%;
+}
+
+.metergrp1{
+    width: 416px;
+    height: 120px;
+    left: 72px;
+    top: 786px;
+    text-align: center;
+    align-items: center;
+    
+    background: rgba(56, 62, 69, 0.44);
+    border-radius: 20px;
+float: left;
+}
+.metergrp2{
+    float: left;
+    width: 416px;
+    height: 120px;
+    left: 512px;
+    top: 786px;
+    text-align: center;
+    align-items: center;
+    
+    background: rgba(56, 62, 69, 0.44);
+    border-radius: 20px;
+}
+.metergrp3{
+    float: left;
+    width: 416px;
+    height: 120px;
+    left: 952px;
+    top: 786px;
+    text-align: center;
+    align-items: center;
+    background: rgba(56, 62, 69, 0.44);
+    border-radius: 20px;
+}
+.sagok{
+    width: 20px;
+    height: 20px;
+    left: 438px;
+    top: 836px;
+    float: right;
+    margin:15% 5%;
+background-image: url("sagok.png");
+background-repeat: no-repeat;
+}
+
+.metericerik{
+    width: 159px;
+height: 70px;
+left: 222px;
+top: 811px;
+float: right;
+margin-right: 10%;
+
+
+}
+.meterdeger{
+    color: #FFB742;
+ padding: 0px;
+ width: 100%;
+ font-size: 35px;
+ text-align: center;
+ align-items: center;
+ height: 30px;
+ margin: 0px;
+ padding: 0;
+ margin: 15% 10%;
+ 
+ margin-bottom: 10px;
+}
+.meterdeger2{
+    color:white;
+ padding: 0px;
+ width: 100%;
+ font-size: 17px;
+ text-align: center;
+ align-items: center;
+
+ height: 30px;
+ margin: 0px;
+ padding: 0;
+
+}
+.bsrbelge{
+    margin:7% 10%;
+    width: 64px;
+height: 64px;
+left: 102px;
+top: 814px;
+background-image: url("Ellipse.png");
+padding: 6px;
+background-repeat: no-repeat;
+}
+.amlem1{
+    
+    width: 40px;
+height: 40px;
+    background-image: url("amlem1.png");
+    margin:8% 10%;
+
+}
+.amlem2{
+    
+    width: 40px;
+height: 40px;
+
+    background-image: url("check-mark.png");
+    margin:8% 10%;
+
+}
+.amlem3{
+    
+    width: 40px;
+height: 40px;
+
+    background-image: url("happy.png");
+    margin:8% 10%;
+
+}
+
+.aboutme{
+    width: auto;
+height: 596.07px;
+display: flex;
+
+margin-top: 100px;
+margin-bottom: 100px;
+margin-left: 10%;
+
+}
+
+.aboutme .aboutresim{
+    width: 620px;
+height: 596.07px;
+left: 47px;
+top: 1042px;
+
+background-image: url("aboutme.png");
+}
+
+
+.aboutme .aboutmeacıklama{
+    width: 682px;
+    max-width: 900px;
+height: 396.63px;
+float: left;
+margin-bottom: 10px;
+margin-left: 25px;
+}
+ .bnq{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 6px 25px;
+gap: 10px;
+width: 148px;
+height: 42px;
+left: 707px;
+top: 1127.4px;
+text-align: center;
+align-items: center;
+background: rgba(255, 255, 255, 0.08);
+border-radius: 50px;
+margin-bottom: 10px;
+
+}
+.bnq .bnqmetin{
+ 
+margin-left: 15%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-transform: uppercase;
+color: #FFB742;
+}
+.aboutmeacıklama .bnqbaslık{
+    left: 49.8%;
+right: 35.38%;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+float: left;
+color: #FFFFFF;
+margin-bottom: 10px;
+}
+.aboutmeacıklama .aboutmemetın{
+    float: left;
+    left: 49.79%;
+    right: 3.54%;
+    top: 25.76%;
+    bottom: 70.56%;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #D5D5D5;
+}
+ .aboutmebtn{
+    float: left;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 26px;
+width: 148px;
+height: 54px;
+border: 0px;
+
+background: #FFB742;
+border-radius: 50px;
+/*              */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 30px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #212529;
+
+
+}
+.diller{
+    width: auto;
+    margin: 0 10%;
+height: 358.29px;
+left: 50px;
+top: 1775px;
+
+
+}
+.diller .dd{
+    width: auto;
+height: 315.8px;
+left: 52px;
+top: 1817.49px;
+
+display: flex;
+}
+
+.dilyazıalan .dilbaslık{
+    left: 5%;
+right: 60%;
+top: 37.79%;
+bottom: 59.92%;
+float: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+margin-bottom: 10px;
+color: #FFFFFF;
+}
+.dilyazıalan .dilacıklamaalan{
+   
+    float: left;
+    left: 4.17%;
+    right: 49.17%;
+    top: 40.7%;
+    bottom: 58.08%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+.dd .dilyazıalan{
+width: 50%;
+margin-top: 10px;
+
+
+}
+.dd .dilrsm{
+    width: 560px;
+height: 176px;
+left: 829px;
+top: 1871.29px;
+
+float: right;
+margin-top: 5%;
+}
+.dilrsm .dilrsmkucuk{
+    margin-left: 10px;
+    margin-bottom: 10px; 
+   float: right;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    background: rgba(56, 62, 69, 0.44);
+    
+    
+    border-radius: 10px;
+}
+.dilrsmkucuk .resim{
+    background-repeat: no-repeat;
+    margin: 20%;
+  
+}
+
+.resimler{
+
+    width: auto;
+height: 1037.5px;
+
+text-align: center;
+align-items: center;
+
+margin: 0px 10%;
+margin-top: 150px;
+}
+
+.resimler .rsmacıklama{
+
+margin-left: -5%;
+margin-bottom: 30px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.resimler .rsmmenu{
+    text-align: center;
+    align-items: center;
+    width: 700px;
+    height: 40px;
+    margin: 0% 28%;
+
+
+}
+.rsmmenu .all{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 10px;
+   
+margin: 0px 10px;
+    width: 61px;
+    height: 40px;
+    text-decoration: none;
+float: left;
+    text-align: center;
+    align-items: center;
+    background: #FFB742;
+    border-radius: 3px;
+
+
+
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 30px;
+color: #212529;
+
+}
+
+.rsmmenu .Mobile_App{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 10px;
+
+text-align: center;
+align-items: center;
+text-decoration: none;
+float: left;
+width: 132px;
+height: 40px;
+
+border-radius: 3px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 30px;
+color: white;
+}
+
+.rsmmenu .Website_Development{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 10px;
+
+text-align: center;
+align-items: center;
+text-decoration: none;
+float: left;
+width: 220px;
+height: 40px;
+
+border-radius: 3px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 30px;
+color: white;
+
+}
+
+.rsmmenu .Website_Design{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 10px;
+ 
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    float: left;
+    width: 167px;
+    height: 40px;
+    
+    border-radius: 3px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+
+}
+.resimler .resımalt{
+ 
+    text-align: center;
+    width: 1234px;
+    height: 820px;
+    margin: 0px 10%;
+    margin-top: 50px;
+background-color: red;
+    
+   
+}
+
+.resımalt .resımalt1{
+    box-sizing: border-box;
+    display:flex;
+    float: left;
+margin-right: 20px;
+
+    width: 390.24px;
+    height: 495.71px;
+ 
+    display: flex;    
+    background: #DFF898;
+    border: 0.2439px solid #000000;
+    border-radius: 5.2735px;
+    background-image: url("Cover.png");
+}
+.resımalt .resımalt2{
+    margin-right: 20px;
+    display:flex;
+    float: left;
+width: 390.24px;
+height: 292.68px;
+left: 524.88px;
+top: 2488px;
+
+background-image:  url("framee.png");
+
+border-radius: 5.2735px;
+}
+
+.resımalt .resımalt3{
+    width: 390.24px;
+height: 495.71px;
+left: 946.76px;
+top: 2488px;
+
+margin-right: 20px;
+background-image:  url("wd3.png");
+border-radius: 5.2735px;
+float: left;
+}
+.resımalt .resımalt4{
+    width: 390px;
+height: 292.5px;
+margin-top: 20px;
+margin-right: 20px;
+background: #37CC8B;
+border-radius: 5.27027px;
+background-image: url("frameee.png");
+display: flex;
+float: left;
+}
+.resımalt .resımalt5{
+    width: 390px;
+height: 495.41px;
+display: flex;
+float: left;
+margin-top: -185px;
+margin-right: 20px;
+background-image:  url("wd2.png");
+border-radius: 5.27027px;
+}
+
+.resımalt .resımalt6{
+    box-sizing: border-box;
+margin-top: 20px;
+    margin-right: 20px;
+width: 390px;
+height: 291.97px;
+left: 947px;
+top: 3014px;
+display: flex;
+float: left;
+background-image:  url("Homepage1.png");
+border-radius: 5.27027px;
+}
+
+.yorumalan{
+    width: auto;
+height: 691px;
+margin: 0px 10%;
+margin-top: 100px;
+display: flex;
+padding: 20px 10%;
+
+
+}
+.yorumalan .yorumgrpbaslık{
+    width: 424px;
+height: 691px;
+
+
+margin-left: 20px;
+margin-right: 20px;
+
+
+
+}
+.yorumgrpbaslık .yorumgrp1{
+    background-position: center;
+    margin: 0pc auto;
+
+}
+.yorumgrpbaslık .baslık{
+    left: 35.97%;
+right: 34.58%;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 39px;
+line-height: 46px;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.yorumalan .yorumgrp1{
+    width: 378.91px;
+height: 443.55px;
+margin-top: 19%;
+background-image: url("yorum.png");
+border-radius: 15px;
+}
+.yorumgrpbaslık .yorumgecısalan{
+
+    width: 100%;
+    margin-top: 10px;
+    height: 30px;
+    display:flex;
+    align-items: center;
+
+    
+
+}
+.yorumgecısalan .yorumgecıs{
+    width: 49px;
+height: 0px;
+border-radius: 9px;
+border: 5px solid #FFB742;
+margin-left: 40%;
+ float: left;
+
+}
+
+.yorumgecısalan .yorumgecıs2{
+    width: 20px;
+margin-left: 2%;
+ height: 0px;
+float: left;
+border-radius: 9px;
+border: 5px solid #BB842C;
+background-color: #000000;
+
+}
+
+.footeralan{
+    width: auto;
+    height: 500px;
+    background-color: aqua;
+    margin-top: 10%;
+}
+.footeralan .footerıcerık{
+    width: 100%;
+height: 400px;
+
+float: left;
+
+
+background-color: black;
+}
+
+.footerıcerık .fgrp1{
+    width: 319px;
+height: 208px;
+
+margin-right: 10%;
+margin-top: 5%;
+float: right;
+}
+.fgrp1 .fgrp1-1{
+width: 319;
+height: 63px;
+
+margin-top: 10%;
+
+}
+.fgrp1-1 .fbtn{
+    width: 64px;
+    height: 63px;
+    float: right;
+background: #FFB742;
+border-radius: 48px;
+border: 0px;
+}
+
+.fgrp1-1 .textalan{
+    background: #212529;
+border-radius: 49px;
+height: 63px; 
+width: 319px;
+
+}
+.textalan .textbox{
+    width: 75%;
+    height: 24px;
+    padding: 10px;
+    background: transparent;
+    outline: 0;
+    border: 0px;
+    font-size: 15px;
+    color: #7C7C7C;
+
+    float: left;
+
+    margin: 20px 0px 10px 2%;
+}
+
+.fgrp1-1 .fyz{
+    width: 319px;
+height: 114px;
+}
+.fyz .fyz-1{
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 32px;
+color: #F5FBF2;
+}
+.fyz .fyz-2{
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 17.9888px;
+line-height: 36px;
+color: #7B7B7B;
+}
+.footerıcerık .fgrp2{
+    width: 143.46px;
+height: 232.57px;
+
+margin-right: 10%;
+margin-top: 5%;
+float: right;
+
+}
+.fgrp2 .fbsk{
+
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 21.5865px;
+line-height: 32px;
+color: #F5FBF2;
+}
+.fgrp2 .fkon{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 17.9888px;
+line-height: 36px;
+color: #7B7B7B;
+}
+.footerıcerık .fgrp3{
+width: 253.16px;
+height: 129.62px;
+margin-right: 10%;
+margin-top: 5%;
+float: right;
+}
+.fgrp3 .fbs{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 100%;
+color: #FFB742;
+}
+ .footer2{
+    width: 1116px;
+height: 175px;
+margin: -80px 20%;
+background: #FFB742;
+border-radius: 15px;
+}
+.footer2 .kn{
+    width: 360px;
+    height: 60px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+    
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+}
+.footer2 .k-1{
+ float: left;
+ margin-left: 5%;
+ margin-top: 5%;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 34.6667px;
+line-height: 53px;
+
+color: #000000;
+}
