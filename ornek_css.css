@@ -74,7 +74,7 @@ height: auto;
 float: left;
     width: 100px;
     height: 66px;
-   background-image:  url("img/Frame.png"); 
+   background-image:   url("Frame.png"); 
 }
 .profalan{
     width: 100%;
@@ -158,7 +158,7 @@ text-align: center;
 .avatar{
  width: 210px;
 height: 222px;
-background-image:  url("img/avatar.png");
+background-image:   url("avatar.png");
 background-repeat:no-repeat;
 
 }
@@ -196,7 +196,7 @@ float: left;
     height: 20px;
     float: right;
     margin:15% 5%;
-background-image:  url("img/sagok.png");
+background-image:   url("sagok.png");
 background-repeat: no-repeat;
 }
 
@@ -239,7 +239,7 @@ margin-right: 10%;
     margin:7% 10%;
     width: 64px;
 height: 64px;
-background-image:  url("img/Ellipse.png");
+background-image:   url("Ellipse.png");
 padding: 6px;
 background-repeat: no-repeat;
 }
@@ -247,7 +247,7 @@ background-repeat: no-repeat;
     
     width: 40px;
 height: 40px;
-    background-image:  url("img/amlem1.png");
+    background-image:   url("amlem1.png");
     margin:8% 10%;
 
 }
@@ -256,7 +256,7 @@ height: 40px;
     width: 40px;
 height: 40px;
 
-    background-image:  url("img/check-mark.png");
+    background-image:   url("check-mark.png");
     margin:8% 10%;
 
 }
@@ -265,7 +265,7 @@ height: 40px;
     width: 40px;
 height: 40px;
 
-    background-image:  url("img/happy.png");
+    background-image:   url("happy.png");
     margin:8% 10%;
 
 }
@@ -288,7 +288,7 @@ margin-bottom: 100px;
 height: 596px;
 margin-right: 100px;
 float: left;
-background-image:  url("img/aboutme.png");
+background-image:   url("aboutme.png");
 float: left;
 display: flex;
 flex-wrap: wrap;
@@ -631,7 +631,7 @@ align-items:flex-start;
 
    
     border-radius: 5.2735px;
-    background-image:  url("img/Cover.png");
+    background-image:   url("Cover.png");
 }
 .resımalt .resımalt2{
     margin-right: 20px;
@@ -644,7 +644,7 @@ display: flex;
 justify-content: center;
 
 
-background-image:   url("img/framee.png");
+background-image:    url("framee.png");
 
 border-radius: 5.2735px;
 }
@@ -659,7 +659,7 @@ justify-content: center;
 align-items:flex-start;
 
 margin-right: 20px;
-background-image:   url("img/wd3.png");
+background-image:    url("wd3.png");
 border-radius: 5.2735px;
 
 }
@@ -671,7 +671,7 @@ margin-top: 20px;
 margin-right: 20px;
 
 border-radius: 5.27027px;
-background-image:  url("img/frameee.png");
+background-image:   url("frameee.png");
 display: flex;
 float: left;
 }
@@ -682,7 +682,7 @@ height: 495.41px;
 
 margin-top: -185px;
 margin-right: 20px;
-background-image:   url("img/wd2.png");
+background-image:    url("wd2.png");
 border-radius: 5.27027px;
 }
 
@@ -694,7 +694,7 @@ margin-top: 20px;
     max-width: 390px;
 height: 291.97px;
 
-background-image:   url("img/Homepage1.png");
+background-image:    url("Homepage1.png");
 border-radius: 5.27027px;
 }
 /*-------------------------------------------------*/
@@ -789,7 +789,7 @@ margin-right: 20px;
  
     display: flex;    
  
-    background-image:   url("img/framee.png");
+    background-image:    url("framee.png");
     border-radius: 5.2735px;
 
 }
@@ -803,7 +803,7 @@ display: flex;
 float: left;
 
 margin-right: 20px;
-background-image:   url("img/wd2.png");
+background-image:    url("wd2.png");
 border-radius: 5.27027px;
 }
 
@@ -813,7 +813,7 @@ height: 292.5px;
 margin-right: 20px;
 
 border-radius: 5.27027px;
-background-image:  url("img/frameee.png");
+background-image:   url("frameee.png");
 display: flex;
 float: left;
 }
@@ -834,7 +834,7 @@ margin-right: 20px;
     background: #DFF898;
     border: 0.2439px solid #000000;
     border-radius: 5.2735px;
-    background-image:  url("img/wd3.png");
+    background-image:   url("wd3.png");
 }
 .resımalt .resımalt2-4{
     margin-right: 20px;
@@ -843,7 +843,7 @@ margin-right: 20px;
 width: 390.24px;
 height: 292.68px;
 
-background-image:   url("img/Homepage1.png");
+background-image:    url("Homepage1.png");
 
 border-radius: 5.2735px;
 }
@@ -914,7 +914,7 @@ color: #FFFFFF;
     max-width: 378.91px;
 height: 443.55px;
 margin-left: 10px;
-background-image:  url("img/yorum.png");
+background-image:   url("yorum.png");
 border-radius: 15px;
 }
 .yorumgrp2{
@@ -922,7 +922,7 @@ border-radius: 15px;
     max-width: 378.91px;
 height: 443.55px;
 margin-left: 10px;
-background-image:  url("img/ttt.png");
+background-image:   url("ttt.png");
 border-radius: 15px;
 }
 .yorumalt{
