@@ -7,13 +7,12 @@ body {
 .navbar{
     width: auto;
 height: 66px;
-left: 50px;
-top: 17px;
 background-color: black;
 padding-right: 30px;
 
 
 }
+
 .navbar .btn{
     box-sizing: border-box;
 display: flex;
@@ -25,25 +24,26 @@ padding: 12px 26px;
 float: right;
 width: 121px;
 height: 54px;
-left: 1271px;
-top: 23.06px;
 background: #FFB742;
 border: 2px solid #FFB742;
 border-radius: 50px;
 
 }
-.navbar .menu{
+.navbarrow{
     display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.navbar .menu{
 
 padding: 10px;
 gap: 20px;
 
 
-width: 429px;
-height: 47px;
-left: 491px;
-top: 29.12px;
-margin: 0px 35%;
+width: auto;
+height: auto;
+
+
 }
 .navbar .a{
     float: left;
@@ -74,234 +74,135 @@ margin: 0px 35%;
 float: left;
     width: 100px;
     height: 66px;
-    left: 50px;
-    top: 17px;
-   background-image: url("Frame.png"); 
+   background-image:  url("img/Frame.png"); 
 }
 .profalan{
-    width: auto;
-height: 458.73px;
-left: 238px;
-top: 191px;
+    width: 100%;
+margin-left: auto;
+margin-right: auto;
 margin-top: 10px;
 
-text-align: center;
-align-items: center;
 
+}
+.profrow{
+    
+    flex-direction:column;
+    justify-content: center; 
 }
 .profalan .prof{
-    width: 500;
-height: 458.73px;
-left: 238px;
-top: 191px;
-margin-top: 50px;
-margin-left: 35%;
-text-align: center;
-align-items: center;
+     width: 100%;
 
 }
+
 .ısımalan{
-    width:auto;
-height: 51px;
-left: 535px;
-top: 191px;
-
-align-items: center;
-text-align: center;
-
-
+     width:100%;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center; 
 color: #FFFFFF;
-}
-.ünvanalan{
-    width:auto;
-height: 51px;
-left: 535px;
-top: 191px;
-
-align-items: center;
 text-align: center;
-
-
-color: #FFFFFF;
-}
-.acıklamanalan{
-    width:auto;
-height: 51px;
-left: 535px;
-top: 191px;
-
 align-items: center;
-text-align: center;
-
-
-color: #FFFFFF;
-}
-.ısım{
-
-    align-items: center;
-    text-align: center;
     font-size: 20px;
     color: white;
-line-height: 51px;
-
-/*                        */
-
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-
-line-height: 51px;
-
+}
+.ünvanalan{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
 align-items: center;
 text-align: center;
-text-transform: capitalize;
 
-color: #FFFFFF;
-
-}
-.unvan{
-
-    width: 964px;
-height: 91px;
-left: 238px;
-top: 238px;
 font-family: 'Inter';
 font-style: normal;
 align-items: center;
 text-align: center;
-font-size: 45px;
-color: white;
-line-height: 51px;
-
-
-
-/*                     */
-
-
 font-weight: 700;
 font-size: 48px;
 line-height: 91px;
-
-
-display: flex;
-
-text-transform: capitalize;
-
 color: #FFFFFF;
-
-
-
 }
-.acıklama{
-    align-items: center;
-    text-align: center;
-    font-size: 15px;
-    color: white;
-line-height: 51px;
-
-/*   */
-margin-top: 50px;
-width: 800px;
-height: 50px;
-
-
+.acıklamanalan{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+font-size: 15px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-
-line-height: 51px;
-/* identical to box height, or 211% */
-
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: capitalize;
-
-color: #FFFFFF;
-
+margin-bottom: 10px;
 }
+
+
+
 .avataralan{
-    width: auto;
-height: 222.73px;
-left: 625px;
-top: 427px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
 align-items: center;
 text-align: center;
-line-height: 51px;
+
 
 
 }
 .avatar{
  width: 210px;
-height: 222.73px;
-background-image: url("avatar.png");
-margin-left: 30%;
+height: 222px;
+background-image:  url("img/avatar.png");
 background-repeat:no-repeat;
 
 }
 .meter{
-    width: auto;
+    /* width: auto;
 height: 120px;
-left: 72px;
-top: 786px;
+
 background-color: re;
 gap: 10%;
 display: flex;
 margin: 0px 10%;
+background-color: red; */
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+max-width: 1324px;
 }
-
+.meterrow{
+    display: flex;
+    flex-wrap: wrap;
+}
 .metergrp1{
     width: 416px;
     height: 120px;
-    left: 72px;
-    top: 786px;
     text-align: center;
     align-items: center;
-    
+    margin-left: 10px;
     background: rgba(56, 62, 69, 0.44);
     border-radius: 20px;
 float: left;
 }
-.metergrp2{
-    float: left;
-    width: 416px;
-    height: 120px;
-    left: 512px;
-    top: 786px;
-    text-align: center;
-    align-items: center;
-    
-    background: rgba(56, 62, 69, 0.44);
-    border-radius: 20px;
-}
-.metergrp3{
-    float: left;
-    width: 416px;
-    height: 120px;
-    left: 952px;
-    top: 786px;
-    text-align: center;
-    align-items: center;
-    background: rgba(56, 62, 69, 0.44);
-    border-radius: 20px;
-}
+
 .sagok{
     width: 20px;
     height: 20px;
-    left: 438px;
-    top: 836px;
     float: right;
     margin:15% 5%;
-background-image: url("sagok.png");
+background-image:  url("img/sagok.png");
 background-repeat: no-repeat;
 }
 
 .metericerik{
     width: 159px;
 height: 70px;
-left: 222px;
-top: 811px;
 float: right;
 margin-right: 10%;
 
@@ -338,9 +239,7 @@ margin-right: 10%;
     margin:7% 10%;
     width: 64px;
 height: 64px;
-left: 102px;
-top: 814px;
-background-image: url("Ellipse.png");
+background-image:  url("img/Ellipse.png");
 padding: 6px;
 background-repeat: no-repeat;
 }
@@ -348,7 +247,7 @@ background-repeat: no-repeat;
     
     width: 40px;
 height: 40px;
-    background-image: url("amlem1.png");
+    background-image:  url("img/amlem1.png");
     margin:8% 10%;
 
 }
@@ -357,7 +256,7 @@ height: 40px;
     width: 40px;
 height: 40px;
 
-    background-image: url("check-mark.png");
+    background-image:  url("img/check-mark.png");
     margin:8% 10%;
 
 }
@@ -366,56 +265,56 @@ height: 40px;
     width: 40px;
 height: 40px;
 
-    background-image: url("happy.png");
+    background-image:  url("img/happy.png");
     margin:8% 10%;
 
 }
 
 .aboutme{
-    width: auto;
-height: 596.07px;
-display: flex;
+    width: 100%;
+margin-left: auto;
+margin-right: auto;
 
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 margin-top: 100px;
 margin-bottom: 100px;
-margin-left: 10%;
 
 }
 
 .aboutme .aboutresim{
     width: 620px;
-height: 596.07px;
-left: 47px;
-top: 1042px;
-
-background-image: url("aboutme.png");
+height: 596px;
+margin-right: 100px;
+float: left;
+background-image:  url("img/aboutme.png");
+float: left;
+display: flex;
+flex-wrap: wrap;
 }
 
 
 .aboutme .aboutmeacıklama{
     width: 682px;
-    max-width: 900px;
-height: 396.63px;
-float: left;
+height: auto;
+
 margin-bottom: 10px;
-margin-left: 25px;
+margin-right: 10px;
 }
  .bnq{
-    display: flex;
-flex-direction: row;
-align-items: flex-start;
+
+
 padding: 6px 25px;
 gap: 10px;
 width: 148px;
 height: 42px;
-left: 707px;
-top: 1127.4px;
 text-align: center;
 align-items: center;
 background: rgba(255, 255, 255, 0.08);
 border-radius: 50px;
 margin-bottom: 10px;
-
+     display: flex;
 }
 .bnq .bnqmetin{
  
@@ -428,10 +327,7 @@ line-height: 30px;
 text-transform: uppercase;
 color: #FFB742;
 }
-.aboutmeacıklama .bnqbaslık{
-    left: 49.8%;
-right: 35.38%;
-
+ .bnqbaslık{
 
 font-family: 'Roboto';
 font-style: normal;
@@ -443,11 +339,9 @@ margin-bottom: 10px;
 }
 .aboutmeacıklama .aboutmemetın{
     float: left;
-    left: 49.79%;
-    right: 3.54%;
-    top: 25.76%;
-    bottom: 70.56%;
+   
     margin-top: 10px;
+   
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -483,44 +377,43 @@ color: #212529;
 
 }
 .diller{
-    width: auto;
-    margin: 0 10%;
-height: 358.29px;
-left: 50px;
-top: 1775px;
+    width: 100½;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px 10%;
+ display: flex;
+ flex-wrap: wrap;
+
 
 
 }
 .diller .dd{
-    width: auto;
-height: 315.8px;
-left: 52px;
-top: 1817.49px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 
-display: flex;
+margin-left: auto;
+margin-right: auto;
+
+
 }
 
 .dilyazıalan .dilbaslık{
-    left: 5%;
-right: 60%;
-top: 37.79%;
-bottom: 59.92%;
+width: 100%;
 float: left;
+max-width: 500px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 48px;
 line-height: 56px;
-margin-bottom: 10px;
+margin-bottom: 15px;
 color: #FFFFFF;
 }
 .dilyazıalan .dilacıklamaalan{
    
     float: left;
-    left: 4.17%;
-    right: 49.17%;
-    top: 40.7%;
-    bottom: 58.08%;
+ margin-bottom: 15px;
     
     font-family: 'Poppins';
     font-style: normal;
@@ -539,16 +432,17 @@ margin-top: 10px;
 .dd .dilrsm{
     width: 560px;
 height: 176px;
-left: 829px;
-top: 1871.29px;
-
 float: right;
-margin-top: 5%;
+margin-bottom: 15px;
+
 }
 .dilrsm .dilrsmkucuk{
     margin-left: 10px;
     margin-bottom: 10px; 
+   
+   display: flex;
    float: right;
+flex-wrap: wrap;
     width: 80px;
     height: 80px;
     text-align: center;
@@ -566,49 +460,54 @@ margin-top: 5%;
 
 .resimler{
 
-    width: auto;
-height: 1037.5px;
+    width: 100%;
+margin-top: 50px;
 
-text-align: center;
-align-items: center;
+max-width: 1324px;
 
-margin: 0px 10%;
-margin-top: 150px;
+margin-left: auto;
+margin-right: auto;
+
 }
 
 .resimler .rsmacıklama{
 
-margin-left: -5%;
-margin-bottom: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 10px;
+margin-bottom: 10px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 48px;
-line-height: 56px;
-text-align: center;
+width: 100%;
 
 color: #FFFFFF;
 }
 
 .resimler .rsmmenu{
-    text-align: center;
-    align-items: center;
-    width: 700px;
-    height: 40px;
-    margin: 0% 28%;
+
+    width: 100%;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+
+margin-left: auto;
+margin-right: auto;
 
 
 }
 .rsmmenu .all{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+
     padding: 0px 10px;
-   
+
 margin: 0px 10px;
     width: 61px;
     height: 40px;
-    text-decoration: none;
+   
 float: left;
     text-align: center;
     align-items: center;
@@ -630,9 +529,8 @@ color: #212529;
 }
 
 .rsmmenu .Mobile_App{
-    display: flex;
-flex-direction: row;
-align-items: flex-start;
+
+
 padding: 0px 10px;
 
 text-align: center;
@@ -700,18 +598,230 @@ color: white;
 
 }
 .resimler .resımalt{
+
+    margin-left: auto;
+margin-right: auto;
+width: 100%;
+max-width: 1324px;
+margin-top: 20px;
+display: flex;
+
+justify-content: center;
+align-items:flex-start;
+
+
+
+
  
-    text-align: center;
-    width: 1234px;
-    height: 820px;
-    margin: 0px 10%;
-    margin-top: 50px;
-background-color: red;
-    
-   
+ 
 }
 
 .resımalt .resımalt1{
+    box-sizing: border-box;
+ 
+    display: flex;
+
+    justify-content: center;
+    align-items:flex-start;
+    width: 100%;
+    max-width: 390px;
+    height: 495.71px;
+ margin-right: 20px;
+      
+
+   
+    border-radius: 5.2735px;
+    background-image:  url("img/Cover.png");
+}
+.resımalt .resımalt2{
+    margin-right: 20px;
+    
+    width: 100%;
+    max-width: 390px;
+height: 292.68px;
+display: flex;
+
+justify-content: center;
+
+
+background-image:   url("img/framee.png");
+
+border-radius: 5.2735px;
+}
+
+ .resımalt3{
+    width: 100%;
+    max-width: 390px;
+height: 495.71px;
+display: flex;
+
+justify-content: center;
+align-items:flex-start;
+
+margin-right: 20px;
+background-image:   url("img/wd3.png");
+border-radius: 5.2735px;
+
+}
+.resımalt .resımalt4{
+    width: 100%;
+    max-width: 390px;
+height: 292.5px;
+margin-top: 20px;
+margin-right: 20px;
+
+border-radius: 5.27027px;
+background-image:  url("img/frameee.png");
+display: flex;
+float: left;
+}
+.resımalt .resımalt5{
+    width: 100%;
+    max-width: 390px;
+height: 495.41px;
+
+margin-top: -185px;
+margin-right: 20px;
+background-image:   url("img/wd2.png");
+border-radius: 5.27027px;
+}
+
+.resımalt .resımalt6{
+    box-sizing: border-box;
+margin-top: 20px;
+    margin-right: 20px;
+    width: 100%;
+    max-width: 390px;
+height: 291.97px;
+
+background-image:   url("img/Homepage1.png");
+border-radius: 5.27027px;
+}
+/*-------------------------------------------------*/
+
+.resımalt .resımalt1-2{
+    box-sizing: border-box;
+    display:flex;
+    float: left;
+margin-right: 20px;
+
+    width: 390.24px;
+    height: 495.71px;
+ 
+    display: flex;    
+ 
+
+    border-radius: 5.2735px;
+
+}
+
+.resımalt .resımalt2-2{
+    margin-right: 20px;
+    display:flex;
+    float: left;
+width: 390.24px;
+height: 292.68px;
+left: 524.88px;
+top: 2488px;
+border-radius: 5.2735px;
+}
+
+
+
+ .resımalt3-2{
+    width: 390.24px;
+height: 495.71px;
+
+margin-right: 20px;
+
+border-radius: 5.2735px;
+float: left;
+}
+.resımalt .resımalt4-2{
+    width: 390px;
+height: 292.5px;
+margin-top: 20px;
+margin-right: 20px;
+
+border-radius: 5.27027px;
+
+display: flex;
+float: left;
+}
+.resımalt .resımalt5-2{
+    width: 390px;
+height: 495.41px;
+display: flex;
+float: left;
+margin-top: -185px;
+margin-right: 20px;
+
+border-radius: 5.27027px;
+
+
+
+border-radius: 5.27027px;
+}
+
+.resımalt .resımalt6-2{
+    box-sizing: border-box;
+margin-top: 20px;
+    margin-right: 20px;
+width: 390px;
+height: 291.97px;
+display: flex;
+float: left;
+
+border-radius: 5.27027px;
+}
+
+/*-------------------------------------------------*/
+/* desing */
+
+.resımalt .resımalt1-3{
+    box-sizing: border-box;
+    display:flex;
+    float: left;
+margin-right: 20px;
+
+    width: 390.24px;
+    height: 292px;
+ 
+    display: flex;    
+ 
+    background-image:   url("img/framee.png");
+    border-radius: 5.2735px;
+
+}
+
+
+
+.resımalt .resımalt2-3{
+    width: 390px;
+height: 495.41px;
+display: flex;
+float: left;
+
+margin-right: 20px;
+background-image:   url("img/wd2.png");
+border-radius: 5.27027px;
+}
+
+.resımalt3-3{
+    width: 390.24px;
+height: 292.5px;
+margin-right: 20px;
+
+border-radius: 5.27027px;
+background-image:  url("img/frameee.png");
+display: flex;
+float: left;
+}
+
+/*----------------------------------------*/
+/*   dev  */
+
+.resımalt .resımalt1-4{
     box-sizing: border-box;
     display:flex;
     float: left;
@@ -724,101 +834,63 @@ margin-right: 20px;
     background: #DFF898;
     border: 0.2439px solid #000000;
     border-radius: 5.2735px;
-    background-image: url("Cover.png");
+    background-image:  url("img/wd3.png");
 }
-.resımalt .resımalt2{
+.resımalt .resımalt2-4{
     margin-right: 20px;
     display:flex;
     float: left;
 width: 390.24px;
 height: 292.68px;
-left: 524.88px;
-top: 2488px;
 
-background-image:  url("framee.png");
+background-image:   url("img/Homepage1.png");
 
 border-radius: 5.2735px;
 }
 
-.resımalt .resımalt3{
-    width: 390.24px;
-height: 495.71px;
-left: 946.76px;
-top: 2488px;
 
-margin-right: 20px;
-background-image:  url("wd3.png");
-border-radius: 5.2735px;
-float: left;
-}
-.resımalt .resımalt4{
-    width: 390px;
-height: 292.5px;
-margin-top: 20px;
-margin-right: 20px;
-background: #37CC8B;
-border-radius: 5.27027px;
-background-image: url("frameee.png");
-display: flex;
-float: left;
-}
-.resımalt .resımalt5{
-    width: 390px;
-height: 495.41px;
-display: flex;
-float: left;
-margin-top: -185px;
-margin-right: 20px;
-background-image:  url("wd2.png");
-border-radius: 5.27027px;
-}
 
-.resımalt .resımalt6{
-    box-sizing: border-box;
-margin-top: 20px;
-    margin-right: 20px;
-width: 390px;
-height: 291.97px;
-left: 947px;
-top: 3014px;
-display: flex;
-float: left;
-background-image:  url("Homepage1.png");
-border-radius: 5.27027px;
-}
 
+
+/* -----------------------*/
 .yorumalan{
-    width: auto;
-height: 691px;
-margin: 0px 10%;
+    /* width: 100%;
+
+margin-left: auto;
+margin-right: auto;
+margin: 0px 15%;
+max-width: 1324px;
 margin-top: 100px;
+margin-bottom: 100px;
 display: flex;
-padding: 20px 10%;
+flex-wrap: wrap;
+justify-content: center;
+background-color: red;
+float: left; */
+margin-left: auto;
+margin-right: auto;
+width: 100%;
 
-
-}
-.yorumalan .yorumgrpbaslık{
-    width: 424px;
-height: 691px;
-
-
-margin-left: 20px;
-margin-right: 20px;
-
-
-
-}
-.yorumgrpbaslık .yorumgrp1{
-    background-position: center;
-    margin: 0pc auto;
+max-width: 1324px;
+margin-top: 150px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 
 }
-.yorumgrpbaslık .baslık{
-    left: 35.97%;
-right: 34.58%;
+.yorumust{
+    margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: 150px;
+max-width: 1324px;
+display: flex;
 
+justify-content: center;
 
-font-family: 'Roboto';
+}
+.baslık{
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 39px;
@@ -828,38 +900,51 @@ text-transform: capitalize;
 
 color: #FFFFFF;
 }
-.yorumalan .yorumgrp1{
-    width: 378.91px;
+.yorumlar{
+    width: 100%;
+    display: flex;
+    max-width: 1324px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.yorumgrp1{
+    width: 100%;
+    max-width: 378.91px;
 height: 443.55px;
-margin-top: 19%;
-background-image: url("yorum.png");
+margin-left: 10px;
+background-image:  url("img/yorum.png");
 border-radius: 15px;
 }
-.yorumgrpbaslık .yorumgecısalan{
-
+.yorumgrp2{
     width: 100%;
-    margin-top: 10px;
-    height: 30px;
-    display:flex;
-    align-items: center;
-
-    
-
+    max-width: 378.91px;
+height: 443.55px;
+margin-left: 10px;
+background-image:  url("img/ttt.png");
+border-radius: 15px;
 }
-.yorumgecısalan .yorumgecıs{
+.yorumalt{
+    width: 100%;
+    display: flex;
+    max-width: 1324px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px    ;
+}
+ .yorumgecıs{
     width: 49px;
-height: 0px;
+
 border-radius: 9px;
 border: 5px solid #FFB742;
-margin-left: 40%;
  float: left;
 
 }
 
-.yorumgecısalan .yorumgecıs2{
+ .yorumgecıs2{
     width: 20px;
-margin-left: 2%;
- height: 0px;
+
 float: left;
 border-radius: 9px;
 border: 5px solid #BB842C;
@@ -867,10 +952,33 @@ background-color: #000000;
 
 }
 
+
+ .yorumgecıs-1{
+    width: 20px;
+border-radius: 9px;
+border: 5px solid #BB842C;
+
+ float: right;
+ background-color: #000000;
+}
+
+ .yorumgecıs2-1{
+    width: 49px;
+
+float: right;
+border-radius: 9px;
+border: 5px solid #FFB742;
+
+
+}
+
+
+
+
 .footeralan{
     width: auto;
     height: 500px;
-    background-color: aqua;
+   
     margin-top: 10%;
 }
 .footeralan .footerıcerık{
@@ -994,9 +1102,12 @@ line-height: 100%;
 color: #FFB742;
 }
  .footer2{
-    width: 1116px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: -80px;
+     width: 100%;
+    max-width: 1116px;
 height: 175px;
-margin: -80px 20%;
 background: #FFB742;
 border-radius: 15px;
 }

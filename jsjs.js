@@ -28,11 +28,198 @@
         
     }, 100);
 
-    function hepsi(){
-        alert("ttt");
-        var deger=document.getElementById("resımalt1")[0];
+    function yorumdegıstır1(){
+    var deger=document.getElementById("yrm1");
+    var özellik=document.createAttribute("class");
+    özellik.value="yorumgrp1";
+    deger.setAttributeNode(özellik);
+    var deger=document.getElementById("yrm2");
+    var özellik=document.createAttribute("class");
+    özellik.value="yorumgrp1";
+    deger.setAttributeNode(özellik);
+    var deger=document.getElementById("yrm3");
+    var özellik=document.createAttribute("class");
+    özellik.value="yorumgrp1";
+    deger.setAttributeNode(özellik);
+
+    
+    var deger=document.getElementById("yrmbtn1");
         var özellik=document.createAttribute("class");
-        özellik.value="resımalt3";
+        özellik.value="yorumgecıs";
         deger.setAttributeNode(özellik);
-       
+        var deger=document.getElementById("yrmbtn2");
+        var özellik=document.createAttribute("class");
+        özellik.value="yorumgecıs2";
+        deger.setAttributeNode(özellik);
     }
+   
+    function yorumdegıstır(){
+        var deger=document.getElementById("yrm1");
+        var özellik=document.createAttribute("class");
+        özellik.value="yorumgrp2";
+        deger.setAttributeNode(özellik);
+        var deger=document.getElementById("yrm2");
+        var özellik=document.createAttribute("class");
+        özellik.value="yorumgrp2";
+        deger.setAttributeNode(özellik);
+        var deger=document.getElementById("yrm3");
+        var özellik=document.createAttribute("class");
+        özellik.value="yorumgrp2";
+        deger.setAttributeNode(özellik);
+
+        //////////
+        var deger=document.getElementById("yrmbtn1");
+        var özellik=document.createAttribute("class");
+        özellik.value="yorumgecıs-1";
+        deger.setAttributeNode(özellik);
+        var deger=document.getElementById("yrmbtn2");
+        var özellik=document.createAttribute("class");
+        özellik.value="yorumgecıs2-1";
+        deger.setAttributeNode(özellik);
+    }
+
+      
+    var baslat=0;
+    function hepsı(){
+        let interval = setInterval(function(){
+            baslat+= 1;
+            if(baslat=== 100){ 
+                clearInterval(interval);
+            }
+           
+            document.getElementById("yukle").innerHTML=baslat +"+";
+            
+        }, 10);
+        /*
+        var deger=document.getElementById("r-1");
+         var özellik=document.createAttribute("class");
+         özellik.value="resımalt1";
+         deger.setAttributeNode(özellik);
+ 
+         var deger=document.getElementById("r-2");
+         var özellik=document.createAttribute("class");
+         özellik.value="resımalt2";
+         deger.setAttributeNode(özellik);
+ 
+         var deger=document.getElementById("r-3");
+         var özellik=document.createAttribute("class");
+         özellik.value="resımalt3";
+         deger.setAttributeNode(özellik);
+ 
+         var deger=document.getElementById("r-4");
+         var özellik=document.createAttribute("class");
+         özellik.value="resımalt4";
+         deger.setAttributeNode(özellik);
+ 
+         var deger=document.getElementById("r-5");
+         var özellik=document.createAttribute("class");
+         özellik.value="resımalt5";
+         deger.setAttributeNode(özellik);
+ 
+         var deger=document.getElementById("r-6");
+         var özellik=document.createAttribute("class");
+         özellik.value="resımalt6";
+         deger.setAttributeNode(özellik);
+ */
+     }
+
+    function mbl(){
+       var deger=document.getElementById("r-1");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt1";
+        deger.setAttributeNode(özellik);
+
+        var deger=document.getElementById("r-2");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt2-2";
+        deger.setAttributeNode(özellik);
+
+        var deger=document.getElementById("r-3");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt3-2";
+        deger.setAttributeNode(özellik);
+
+        var deger=document.getElementById("r-4");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt4-2";
+        deger.setAttributeNode(özellik);
+
+        var deger=document.getElementById("r-5");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt5-2";
+        deger.setAttributeNode(özellik);
+
+        var deger=document.getElementById("r-6");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt6-2";
+        deger.setAttributeNode(özellik);
+
+    }
+       
+    
+    function Design(){
+        var deger=document.getElementById("r-1");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt1-3";
+        deger.setAttributeNode(özellik);
+
+        var deger=document.getElementById("r-2");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt2-3";
+        deger.setAttributeNode(özellik);
+
+        var deger=document.getElementById("r-3");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt3-3";
+        deger.setAttributeNode(özellik);
+
+        var deger=document.getElementById("r-4");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt4-2";
+        deger.setAttributeNode(özellik);
+
+        var deger=document.getElementById("r-5");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt5-2";
+        deger.setAttributeNode(özellik);
+
+        var deger=document.getElementById("r-6");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt6-2";
+        deger.setAttributeNode(özellik);
+    }
+
+    
+    function dev(){
+        var deger=document.getElementById("r-1");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt1-4";
+        deger.setAttributeNode(özellik);
+
+        var deger=document.getElementById("r-2");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt2-4";
+        deger.setAttributeNode(özellik);
+
+        var deger=document.getElementById("r-3");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt3-2";
+        deger.setAttributeNode(özellik);
+
+        var deger=document.getElementById("r-4");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt4-2";
+        deger.setAttributeNode(özellik);
+
+        var deger=document.getElementById("r-5");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt5-2";
+        deger.setAttributeNode(özellik);
+
+        var deger=document.getElementById("r-6");
+        var özellik=document.createAttribute("class");
+        özellik.value="resımalt6-2";
+        deger.setAttributeNode(özellik);
+    }
+    
+
