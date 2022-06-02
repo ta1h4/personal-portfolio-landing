@@ -79,18 +79,39 @@
     }
 
       
-    var baslat=0;
-    function hepsı(){
+    // var baslat=0;
+    // function hepsı(){
+    //     let interval = setInterval(function(){
+    //         baslat+= 1;
+    //         if(baslat=== 100){ 
+    //             clearInterval(interval);
+    //         }
+           
+    //         document.getElementById("yukle").innerHTML=baslat +"+";
+            
+    //     }, 10);
+        
+        
+    //  }
+    let baslat1z= 0;
+    function ddd(){
+        hpsyk();
+        modal.style.display = "block";
         let interval = setInterval(function(){
-            baslat+= 1;
-            if(baslat=== 100){ 
+            baslat1z+= 1;
+            if(baslat1z=== 50){ 
+                modal.style.display = "none";
+                hps();
                 clearInterval(interval);
             }
            
-            document.getElementById("yukle").innerHTML=baslat +"+";
+            document.getElementById("deger").innerHTML=baslat1z +"+";
             
-        }, 10);
-        /*
+        }, 100);
+    }
+
+    function hps(){
+        
         var deger=document.getElementById("r-1");
          var özellik=document.createAttribute("class");
          özellik.value="resımalt1";
@@ -120,9 +141,39 @@
          var özellik=document.createAttribute("class");
          özellik.value="resımalt6";
          deger.setAttributeNode(özellik);
- */
      }
-
+     function hpsyk(){
+        
+        var deger=document.getElementById("r-1");
+         var özellik=document.createAttribute("class");
+         özellik.value="";
+         deger.setAttributeNode(özellik);
+ 
+         var deger=document.getElementById("r-2");
+         var özellik=document.createAttribute("class");
+         özellik.value="";
+         deger.setAttributeNode(özellik);
+ 
+         var deger=document.getElementById("r-3");
+         var özellik=document.createAttribute("class");
+         özellik.value="";
+         deger.setAttributeNode(özellik);
+ 
+         var deger=document.getElementById("r-4");
+         var özellik=document.createAttribute("class");
+         özellik.value="";
+         deger.setAttributeNode(özellik);
+ 
+         var deger=document.getElementById("r-5");
+         var özellik=document.createAttribute("class");
+         özellik.value="";
+         deger.setAttributeNode(özellik);
+ 
+         var deger=document.getElementById("r-6");
+         var özellik=document.createAttribute("class");
+         özellik.value="";
+         deger.setAttributeNode(özellik);
+     }
     function mbl(){
        var deger=document.getElementById("r-1");
         var özellik=document.createAttribute("class");
@@ -223,3 +274,20 @@
     }
     
 
+    var modal = document.getElementById("myModal"); 
+
+    // let baslat1z= 0;
+    // function ddd(){
+    //     modal.style.display = "block";
+    //     let interval = setInterval(function(){
+    //         baslat1z+= 1;
+    //         if(baslat1z=== 50){ 
+    //             modal.style.display = "none";
+    //             clearInterval(interval);
+    //         }
+           
+    //         document.getElementById("deger").innerHTML=baslat1z +"+";
+            
+    //     }, 100);
+    // }
+    

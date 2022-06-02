@@ -4,10 +4,14 @@ body {
   background-color: #212529;
  
 }
+.container{
+    width: 100%;
+
+}
 .navbar{
-    width: auto;
-height: 66px;
-background-color: black;
+   
+
+
 padding-right: 30px;
 
 
@@ -46,6 +50,8 @@ height: auto;
 
 }
 .navbar .a{
+    font-family: 'Poppins';
+font-style: normal;
     float: left;
     color: white;
     text-align: center;
@@ -77,10 +83,10 @@ float: left;
    background-image:   url("Frame.png"); 
 }
 .profalan{
-    width: 100%;
+
 margin-left: auto;
 margin-right: auto;
-margin-top: 10px;
+margin-top: 100px;
 
 
 }
@@ -88,10 +94,6 @@ margin-top: 10px;
     
     flex-direction:column;
     justify-content: center; 
-}
-.profalan .prof{
-     width: 100%;
-
 }
 
 .ısımalan{
@@ -109,6 +111,9 @@ align-items: center;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
+}
+.ısımrenk{
+    color: #BB842C;
 }
 .ünvanalan{
     width:100%;
@@ -162,6 +167,21 @@ background-image:   url("avatar.png");
 background-repeat:no-repeat;
 
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 10px;
+ 
+
+  }
+  
+    .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+
+    text-align: center;
+    font-size: 30px;
+  }
 .meter{
     /* width: auto;
 height: 120px;
@@ -173,16 +193,47 @@ margin: 0px 10%;
 background-color: red; */
 margin-left: auto;
 margin-right: auto;
-width: 100%;
 max-width: 1324px;
+}
+
+@media (min-width: 540px){
+
+    .meter{
+        background-color: red;
+    }
 }
 .meterrow{
     display: flex;
     flex-wrap: wrap;
+  
+
+}
+.col{
+  
+    width: 25%;
+    height: 100%;
+
+
+}
+.col-2{
+  
+    width: 5%;
+    height: 100%;
+
+
+
+
+
+}
+.col-6{
+ 
+    width: 60%;
+    margin-left: 2%;
+    margin-right: 3%;
 }
 .metergrp1{
-    width: 416px;
-    height: 120px;
+    width: 32%;
+    height: 100%;
     text-align: center;
     align-items: center;
     margin-left: 10px;
@@ -191,56 +242,64 @@ max-width: 1324px;
 float: left;
 }
 
+.sagokalan{
+    width: 100%;
+    height: 100%;
+ 
+    margin-top: 250%;
+}
+
 .sagok{
-    width: 20px;
-    height: 20px;
-    float: right;
-    margin:15% 5%;
+ 
+
+
 background-image:   url("sagok.png");
+
 background-repeat: no-repeat;
+
 }
 
 .metericerik{
-    width: 159px;
-height: 70px;
+    width: 100%;
+
+height: 100%;
 float: right;
-margin-right: 10%;
+
 
 
 }
 .meterdeger{
     color: #FFB742;
  padding: 0px;
- width: 100%;
+
  font-size: 35px;
  text-align: center;
  align-items: center;
- height: 30px;
- margin: 0px;
+
+
  padding: 0;
- margin: 15% 10%;
+ margin: 10% 0%;
  
  margin-bottom: 10px;
 }
 .meterdeger2{
     color:white;
- padding: 0px;
- width: 100%;
  font-size: 17px;
  text-align: center;
  align-items: center;
 
- height: 30px;
- margin: 0px;
- padding: 0;
 
 }
+
 .bsrbelge{
-    margin:7% 10%;
-    width: 64px;
-height: 64px;
+    width: 70%;
+    height: 100%;
+    margin:25%;
+    
 background-image:   url("Ellipse.png");
-padding: 6px;
+padding: 10px;
+
+
 background-repeat: no-repeat;
 }
 .amlem1{
@@ -248,7 +307,7 @@ background-repeat: no-repeat;
     width: 40px;
 height: 40px;
     background-image:   url("amlem1.png");
-    margin:8% 10%;
+    margin:  4%;
 
 }
 .amlem2{
@@ -257,7 +316,7 @@ height: 40px;
 height: 40px;
 
     background-image:   url("check-mark.png");
-    margin:8% 10%;
+    margin:  4%;
 
 }
 .amlem3{
@@ -266,45 +325,61 @@ height: 40px;
 height: 40px;
 
     background-image:   url("happy.png");
-    margin:8% 10%;
+    margin:  4%;
 
 }
 
 .aboutme{
-    width: 100%;
-margin-left: auto;
-margin-right: auto;
 
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+
+
 margin-top: 100px;
 margin-bottom: 100px;
 
-}
 
-.aboutme .aboutresim{
-    width: 620px;
-height: 596px;
-margin-right: 100px;
-float: left;
-background-image:   url("aboutme.png");
-float: left;
+
+
+margin-left: auto;
+margin-right: auto;
+max-width: 1324px;
+}
+.aboutmerow{
+    width: 100%;
 display: flex;
 flex-wrap: wrap;
 }
 
 
-.aboutme .aboutmeacıklama{
-    width: 682px;
-height: auto;
 
-margin-bottom: 10px;
-margin-right: 10px;
+
+.aboutresim{
+
+
+    height: 596px;
+
+
+background-image:   url("aboutme.png");
+
+
+
+
 }
+.abutalan{
+    width: 100%;
+    height: 100%;
+ 
+    
+}
+
+ .aboutmeacıklama{
+    width: 100%;
+height: 100%;
+margin-top: 15%;
+}
+
  .bnq{
 
-
+margin-top: 10px;
 padding: 6px 25px;
 gap: 10px;
 width: 148px;
@@ -505,7 +580,7 @@ margin-right: auto;
     padding: 0px 10px;
 
 margin: 0px 10px;
-    width: 61px;
+    width: 80px;
     height: 40px;
    
 float: left;
@@ -1138,3 +1213,25 @@ line-height: 53px;
 
 color: #000000;
 }
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+  
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+      
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
