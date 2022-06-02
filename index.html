@@ -9,7 +9,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Poppins:ital,wght@0,200;0,300;1,200&display=swap" rel="stylesheet">
 
-
+<link
+rel="stylesheet"
+href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
 
 <link type="text/css" rel="stylesheet" href="ornek_css.css">
     </head>
@@ -183,13 +186,13 @@
                              <div class="aboutme">
                                 <div class="aboutmerow">
                                     
-                                    <div class="col" style=" width: 50%;"> 
+                                    <div class="col"> 
                                         <div class="abutalan">
-                                            <div class="aboutresim"></div>
+                                            <div class="aboutresim"><img src="aboutme.png" alt=""></div>
                                         </div>
                                         
                                     </div>
-                                    <div class="col" style=" width: 50%;">
+                                    <div class="col" >
                                         <div class="abutalan">
                                             <div class="aboutmeacıklama">
                                                 <div class="bnq">
@@ -320,9 +323,20 @@
                         </div>
                     </div>
                         <div class="yorumlar">
-                                <div class="yorumgrp1" id="yrm1"></div>
-                                <div class="yorumgrp1" id="yrm2"></div>
-                                <div class="yorumgrp1" id="yrm3"></div>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide"><img src="yorum.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="yorum.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="yorum.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="yorum.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="yorum.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="yorum.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="yorum.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="yorum.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="yorum.png" alt=""></div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                              </div>
                                 
                         </div>
 
@@ -395,5 +409,29 @@
                 </div>
       </div>
  <script type="text/javascript" language="javascript" src="jsjs.js">	</script>
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+ 
+ 
+    <!-- Initialize Swiper -->
+    <!-- <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script> -->
+
     </body>
 </html>
