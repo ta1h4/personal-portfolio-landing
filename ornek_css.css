@@ -196,12 +196,7 @@ margin-right: auto;
 max-width: 1324px;
 }
 
-@media (min-width: 540px){
 
-    .meter{
-        background-color: red;
-    }
-}
 .meterrow{
     display: flex;
     flex-wrap: wrap;
