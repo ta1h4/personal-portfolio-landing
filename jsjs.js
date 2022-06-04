@@ -17,7 +17,7 @@
         }
        
         document.getElementById("artansayı2").innerHTML=baslat2 +"+";
-    }, 100);
+    }, 30);
     let interval3 = setInterval(function(){
         baslat3+= 1;
         if(baslat3=== 50){ 
@@ -26,7 +26,7 @@
        
         document.getElementById("artansayı3").innerHTML=baslat3 +"+";
         
-    }, 100);
+    }, 50);
 
     function yorumdegıstır1(){
         
