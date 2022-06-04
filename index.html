@@ -15,6 +15,8 @@ href="https://unpkg.com/swiper/swiper-bundle.min.css"
 />
 
 <link type="text/css" rel="stylesheet" href="ornek_css.css">
+ <link type="text/css" rel="stylesheet" href="resimler.css"> 
+
     </head>
     <body>
 <div class="container">
@@ -63,10 +65,10 @@ href="https://unpkg.com/swiper/swiper-bundle.min.css"
             <br>
             <br>
         <div class="meter">
-            <div class="meterrow">  
+            <div class="meterrow" style="background-color: red;">  
                 <div class="metergrp1">
                 
-                    <div class="meterrow">
+                    <div class="meterrow" >
                         <div class="col">
                             <div class="bsrbelge">
                                 <div class="amlem1"></div>
@@ -203,7 +205,7 @@ href="https://unpkg.com/swiper/swiper-bundle.min.css"
                                                     <div class="bnqbaslık">
                                                      <a class="bnqbaslık">About Me</a>
                                                     </div>
-                                                    <p class="aboutmemetın"> Hi! I’m Muhammed Talha ATEŞ, and I’m a designer
+                                                    <p class="aboutmemetın"> Hi! I’m muhammed Talha ATEŞ, and I’m a designer
                                                          & developer who has passion for building clean web applications with intuitive functionality.
                                                           I enjoy the process of turning ideas into reality 
                                                           using creative solutions. I’m always curious about
@@ -263,51 +265,53 @@ href="https://unpkg.com/swiper/swiper-bundle.min.css"
                         </div>
                         <div class="rsmacıklama"> Featured Works</div>
                         <div class="rsmmenu">
-                            
-                                <a class="all" onclick="ddd()">ALL</a>
+                                <div id="filters" class="button-group">
+                                        <button class="button active" data-filter="*" id="b-1" onclick="active(1)">show all</button>
+                                        <button class="button" data-filter=".mobile"  id="b-2" onclick="active(2)">Mobile</button>
+                                        <button class="button" data-filter=".Website_Design" id="b-3" onclick="active(3)">Website Design</button>
+                                        <button class="button" data-filter=".Website_Development" id="b-4" onclick="active(4)">Website Development</button>
+                                            <!-- <a class="all" onclick="ddd()">ALL</a>
                                 <a class="Mobile_App" onclick="mbl()">Mobile App</a>
                                 <a class="Website_Design" onclick="Design()">Website Design</a>
-                                <a class="Website_Development " onclick="dev()">Website Development</a>
+                                <a class="Website_Development " onclick="dev()">Website Development</a> -->
                                
-                            
-                        </div>
-                      
-
-                        <div class="" id="deger">
-                            
-                        </div>
-                            
-                              
-                           
-                          
-                        
-                       <div class="resımalt">
-                                
-                              <!--   <div class="meterdeger" id="yukle">-->
-                                       
-                                <div id="myModal" class="modal">
-
-                                    <!-- Modal content -->
-                                    <div class="modal-content">
+                                </div>
+                        </div>    
+                
+                    </div>
                                     
-                                      <p id="deger">Some text in the Modal..</p>
-                                    </div>
+                    <div class="resimalan">
+                        <div class="grid">
+                                  <div class="element-item mobile " >
+                                    <h3 class="name"><img src="Cover.png" alt=""></h3>
+                                
+                                  </div>
+                                
+                                  <div class="element-item Website_Design" >
+                                    <h3 class="name"><img src="Framee.png" alt=""></h3>
                                   
                                   </div>
-                                    <div class="resımalt1" id="r-1"></div>
-                                    <div class="resımalt2" id="r-2"></div>
-                                    <div class="resımalt3" id="r-3"></div>
+                                  <div class="element-item Website_Development" >
+                                    <h3 class="name"><img src="wd3.png" alt=""></h3>
+                                  
+                                  </div>
+                                  <div class="element-item Website_Design" >
+                                    <h3 class="name"><img src="wd2.png" alt=""></h3>
                                     
-                                
-                        </div> 
-                        <div class="resımalt" style="margin-top: 0px;">
-                                
-                                  <div class="resımalt4" id="r-4"></div>
-                                  <div class="resımalt5" id="r-5"></div>
-                                  <div class="resımalt6" id="r-6"></div> 
-                              
+                                  </div>
+                                  
+                                  <div class="element-item Website_Design" >
+                                    <h3 class="name"><img src="Frameee.png" alt=""></h3>
+                                  
+                                  </div>
+                                  <div class="element-item Website_Development">
+                                    <h3 class="name"><img src="Homepage1.png" alt=""></h3>
+                                  
+                                  </div>
                       </div> 
-                    </div>
+                      </div>
+                          
+                  
 
                     <div class="yorumalan">
                         <div class="yorumust">
@@ -325,15 +329,13 @@ href="https://unpkg.com/swiper/swiper-bundle.min.css"
                         <div class="yorumlar">
                             <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
-                                  <div class="swiper-slide"><img src="yorum.png" alt=""></div>
-                                  <div class="swiper-slide"><img src="ttt.png" alt=""></div>
-                                  <div class="swiper-slide"><img src="yorum.png" alt=""></div>
-                                  <div class="swiper-slide"><img src="ttt.png" alt=""></div>
-                                  <div class="swiper-slide"><img src="yorum.png" alt=""></div>
-                                  <div class="swiper-slide"><img src="ttt.png" alt=""></div>
-                                  <div class="swiper-slide"><img src="yorum.png" alt=""></div>
-                                  <div class="swiper-slide"><img src="ttt.png" alt=""></div>
-                                  <div class="swiper-slide"><img src="yorum.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="yorum.png" id="yrm1" alt=""></div>
+                                  <div class="swiper-slide"><img src="yorum.png"  id="yrm2" alt=""></div>
+                                  <div class="swiper-slide"><img src="yorum.png"  id="yrm3" alt=""></div>
+                                  <div class="swiper-slide"><img src="ttt.png"   id="yrm4" alt=""></div>
+                                  <div class="swiper-slide"><img src="ttt.png"  id="yrm5" alt=""></div>
+                                  <div class="swiper-slide"><img src="ttt.png"  id="yrm6" alt=""></div>
+                                  
                                 </div>
                                 <div class="swiper-pagination"></div>
                               </div>
@@ -343,8 +345,8 @@ href="https://unpkg.com/swiper/swiper-bundle.min.css"
                         
                        
                                 <div class="yorumalt">
-                                    <button class="yorumgecıs-1" onclick="yorumdegıstır1()" id="yrmbtn1"></button>
-                                    <button class="yorumgecıs2-1"  onclick="yorumdegıstır()" id="yrmbtn2"></button>
+                                    <button class="yorumgecıs" onclick="yorumdegıstır1()" id="yrmbtn1"></button>
+                                    <button class="yorumgecıs2"  onclick="yorumdegıstır2()" id="yrmbtn2"></button>
                                 </div>  
                       
                         
@@ -356,82 +358,92 @@ href="https://unpkg.com/swiper/swiper-bundle.min.css"
                
                         <div class="footerıcerık" style="height:100px;">
                                     <div class="footer2">
-                                        <button class="aboutmebtn" style="border: 2px solid #000000; width:  200px; float: right;margin: 5% 5%;">Let’s do this</button>
+                                        <button class="aboutmebtn" style="border: 2px solid #000000; width:  auto; float: right;margin: 5% 5%;">Let’s do this</button>
                                         <a class="kn">Interested in working together? We should queue up a chat. I’ll buy the coffee.</a>
                                         <a class="k-1">Start a project</a>
                                     </div>
                               
                         </div>
-                        <div class="footerıcerık" >
-                            <div class="fgrp1">
-                                <div class="fyz">
-                                    <div class="fyz-1">Newsletter</div>
-                                    <div class="fyz-2">Enter your email and get notified about news, of.</div>
-                                </div>
-                                <div class="fgrp1-1">
-                                    <button class="fbtn" >
-                                        <img  src="gg.png" alt="">
-                                    </button>
-                                    <div  class="textalan">
-                                            <input class="textbox" type="text" placeholder="Your email address" >
-                                
+                        <div class="footerıcerık2"  >
+                            <div class="altrow">
+                                    <div class="col">
+                                        
+                                    <div class="fgrp3">
+                                        <a class="fbs">muhammed Talha Ateş.</a><br>
+                                        <a class="fyz-2" style="color: white;">Enter your email and get notified about news, of.</a>
                                     </div>
-                                
-                                
-                                                    
+                                    </div>
+                                    <div class="col">
+                                        
+                                    <div class="fgrp2">
+                                        <a class="fbsk">Social Media</a>
+                                        <a class="fkon">Instagram
+                                            linkedin
+                                            Dribbble
+                                            Behance <br>
+                                            Github</a>
+                                    </div>
+                                    </div>
+                                    <div class="col">
+                                        
+                                    <div class="fgrp2">
+                                        <a class="fbsk">Useful Links</a>
+                                        <a class="fkon">Home <br>
+                                            About <br>
+                                            Skills <br>
+                                            Portfolio <br>
+                                            Contact</a>
+                                    </div>
+                                    </div>
+                                    <div class="col-6"> <div class="fgrp1">
+                                        <div class="fyz">
+                                            <div class="fyz-1">Newsletter</div>
+                                            <div class="fyz-2">Enter your email and get notified about news, of.</div>
+                                        </div>
+                                        <div class="fgrp1-1">
+                                            <button class="fbtn" >
+                                                <img  src="gg.png" alt="">
+                                            </button>
+                                            <div  class="textalan">
+                                                    <input class="textbox" type="text" placeholder="Your email address" >
+                                        
+                                            </div>                  
+                                        </div>
+                                    </div>
                                 </div>
+
+                              
+                                    
+                                
+
                             </div>
-                                
-                                <div class="fgrp2">
-                                    <a class="fbsk">Social Media</a>
-                                    <a class="fkon">Instagram
-                                        linkedin
-                                        Dribbble
-                                        Behance <br>
-                                        Github</a>
-                                </div>
                             
-                                <div class="fgrp2">
-                                    <a class="fbsk">Useful Links</a>
-                                    <a class="fkon">Home <br>
-                                        About <br>
-                                        Skills <br>
-                                        Portfolio <br>
-                                        Contact</a>
-                                </div>
-                                <div class="fgrp3">
-                                    <a class="fbs">Kartik Bansal.</a>
-                                    <a class="fyz-2" style="color: white;">Enter your email and get notified about news, of.</a>
-                                </div>
                                     
                         </div>
                         
                 </div>
       </div>
- <script type="text/javascript" language="javascript" src="jsjs.js">	</script>
- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
- <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  </script>
- 
- 
-    <!-- Initialize Swiper -->
-    <!-- <script>
-      var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
-    </script> -->
+
+
+
+
+
+
+
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+     
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  
+
+
+    <script type="text/javascript" language="javascript" src="jsjs.js">	</script>
+
+
+
+
+
 
     </body>
 </html>

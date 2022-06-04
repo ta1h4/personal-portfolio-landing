@@ -29,19 +29,13 @@
     }, 100);
 
     function yorumdegıstır1(){
-    var deger=document.getElementById("yrm1");
-    var özellik=document.createAttribute("class");
-    özellik.value="yorumgrp1";
-    deger.setAttributeNode(özellik);
-    var deger=document.getElementById("yrm2");
-    var özellik=document.createAttribute("class");
-    özellik.value="yorumgrp1";
-    deger.setAttributeNode(özellik);
-    var deger=document.getElementById("yrm3");
-    var özellik=document.createAttribute("class");
-    özellik.value="yorumgrp1";
-    deger.setAttributeNode(özellik);
-
+        
+    document.getElementById("yrm6").src='ttt.png';
+    document.getElementById("yrm5").src='ttt.png';
+    document.getElementById("yrm4").src='ttt.png';
+    document.getElementById("yrm3").src='yorum.png';
+    document.getElementById("yrm2").src='yorum.png';
+    document.getElementById("yrm1").src='yorum.png';
     
     var deger=document.getElementById("yrmbtn1");
         var özellik=document.createAttribute("class");
@@ -51,24 +45,18 @@
         var özellik=document.createAttribute("class");
         özellik.value="yorumgecıs2";
         deger.setAttributeNode(özellik);
+       
     }
    
-    function yorumdegıstır(){
-        var deger=document.getElementById("yrm1");
-        var özellik=document.createAttribute("class");
-        özellik.value="yorumgrp2";
-        deger.setAttributeNode(özellik);
-        var deger=document.getElementById("yrm2");
-        var özellik=document.createAttribute("class");
-        özellik.value="yorumgrp2";
-        deger.setAttributeNode(özellik);
-        var deger=document.getElementById("yrm3");
-        var özellik=document.createAttribute("class");
-        özellik.value="yorumgrp2";
-        deger.setAttributeNode(özellik);
-
-        //////////
-        var deger=document.getElementById("yrmbtn1");
+    function yorumdegıstır2(){
+         document.getElementById("yrm1").src='ttt.png';
+    document.getElementById("yrm2").src='ttt.png';
+    document.getElementById("yrm3").src='ttt.png';
+    document.getElementById("yrm4").src='yorum.png';
+    document.getElementById("yrm5").src='yorum.png';
+    document.getElementById("yrm6").src='yorum.png';
+    
+    var deger=document.getElementById("yrmbtn1");
         var özellik=document.createAttribute("class");
         özellik.value="yorumgecıs-1";
         deger.setAttributeNode(özellik);
@@ -76,6 +64,7 @@
         var özellik=document.createAttribute("class");
         özellik.value="yorumgecıs2-1";
         deger.setAttributeNode(özellik);
+        
     }
 
       
@@ -93,189 +82,52 @@
         
         
     //  }
-    let baslat1z= 0;
-    function ddd(){
-        hpsyk();
-        modal.style.display = "block";
-        let interval = setInterval(function(){
-            baslat1z+= 1;
-            if(baslat1z=== 50){ 
-                modal.style.display = "none";
-                hps();
-                clearInterval(interval);
-            }
+    // let baslat1z= 0;
+    // function ddd(){
+    //     hpsyk();
+    //     modal.style.display = "block";
+    //     let interval = setInterval(function(){
+    //         baslat1z+= 1;
+    //         if(baslat1z=== 50){ 
+    //             modal.style.display = "none";
+    //             hps();
+    //             clearInterval(interval);
+    //         }
            
-            document.getElementById("deger").innerHTML=baslat1z +"+";
+    //         document.getElementById("deger").innerHTML=baslat1z +"+";
             
-        }, 100);
-    }
-
-    function hps(){
-        
-        var deger=document.getElementById("r-1");
-         var özellik=document.createAttribute("class");
-         özellik.value="resımalt1";
-         deger.setAttributeNode(özellik);
- 
-         var deger=document.getElementById("r-2");
-         var özellik=document.createAttribute("class");
-         özellik.value="resımalt2";
-         deger.setAttributeNode(özellik);
- 
-         var deger=document.getElementById("r-3");
-         var özellik=document.createAttribute("class");
-         özellik.value="resımalt3";
-         deger.setAttributeNode(özellik);
- 
-         var deger=document.getElementById("r-4");
-         var özellik=document.createAttribute("class");
-         özellik.value="resımalt4";
-         deger.setAttributeNode(özellik);
- 
-         var deger=document.getElementById("r-5");
-         var özellik=document.createAttribute("class");
-         özellik.value="resımalt5";
-         deger.setAttributeNode(özellik);
- 
-         var deger=document.getElementById("r-6");
-         var özellik=document.createAttribute("class");
-         özellik.value="resımalt6";
-         deger.setAttributeNode(özellik);
+    //     }, 100);
+    // }
+        var eskıseçilibutton=1;
+    function active(id){
+      
+      console.log("ilk     "+eskıseçilibutton);
+        var dng=0;
+        if(eskıseçilibutton<id){dng=id;}
+        else{dng=eskıseçilibutton;}
+        for(var x=1;x<=dng;x++){
+            
+            var idvalue="b-"+x;
+            if(x==id){
+                
+                var deger=document.getElementById(idvalue);
+            var özellik=document.createAttribute("class");
+            özellik.value=" button active";
+            deger.setAttributeNode(özellik);
+            }
+            else{
+                var deger=document.getElementById(idvalue);
+                var özellik=document.createAttribute("class");
+                özellik.value=" button";
+                deger.setAttributeNode(özellik);
+            }
+        }
+       eskıseçilibutton=id;
      }
-     function hpsyk(){
-        
-        var deger=document.getElementById("r-1");
-         var özellik=document.createAttribute("class");
-         özellik.value="";
-         deger.setAttributeNode(özellik);
  
-         var deger=document.getElementById("r-2");
-         var özellik=document.createAttribute("class");
-         özellik.value="";
-         deger.setAttributeNode(özellik);
- 
-         var deger=document.getElementById("r-3");
-         var özellik=document.createAttribute("class");
-         özellik.value="";
-         deger.setAttributeNode(özellik);
- 
-         var deger=document.getElementById("r-4");
-         var özellik=document.createAttribute("class");
-         özellik.value="";
-         deger.setAttributeNode(özellik);
- 
-         var deger=document.getElementById("r-5");
-         var özellik=document.createAttribute("class");
-         özellik.value="";
-         deger.setAttributeNode(özellik);
- 
-         var deger=document.getElementById("r-6");
-         var özellik=document.createAttribute("class");
-         özellik.value="";
-         deger.setAttributeNode(özellik);
-     }
-    function mbl(){
-       var deger=document.getElementById("r-1");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt1";
-        deger.setAttributeNode(özellik);
-
-        var deger=document.getElementById("r-2");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt2-2";
-        deger.setAttributeNode(özellik);
-
-        var deger=document.getElementById("r-3");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt3-2";
-        deger.setAttributeNode(özellik);
-
-        var deger=document.getElementById("r-4");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt4-2";
-        deger.setAttributeNode(özellik);
-
-        var deger=document.getElementById("r-5");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt5-2";
-        deger.setAttributeNode(özellik);
-
-        var deger=document.getElementById("r-6");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt6-2";
-        deger.setAttributeNode(özellik);
-
-    }
-       
-    
-    function Design(){
-        var deger=document.getElementById("r-1");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt1-3";
-        deger.setAttributeNode(özellik);
-
-        var deger=document.getElementById("r-2");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt2-3";
-        deger.setAttributeNode(özellik);
-
-        var deger=document.getElementById("r-3");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt3-3";
-        deger.setAttributeNode(özellik);
-
-        var deger=document.getElementById("r-4");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt4-2";
-        deger.setAttributeNode(özellik);
-
-        var deger=document.getElementById("r-5");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt5-2";
-        deger.setAttributeNode(özellik);
-
-        var deger=document.getElementById("r-6");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt6-2";
-        deger.setAttributeNode(özellik);
-    }
-
-    
-    function dev(){
-        var deger=document.getElementById("r-1");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt1-4";
-        deger.setAttributeNode(özellik);
-
-        var deger=document.getElementById("r-2");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt2-4";
-        deger.setAttributeNode(özellik);
-
-        var deger=document.getElementById("r-3");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt3-2";
-        deger.setAttributeNode(özellik);
-
-        var deger=document.getElementById("r-4");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt4-2";
-        deger.setAttributeNode(özellik);
-
-        var deger=document.getElementById("r-5");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt5-2";
-        deger.setAttributeNode(özellik);
-
-        var deger=document.getElementById("r-6");
-        var özellik=document.createAttribute("class");
-        özellik.value="resımalt6-2";
-        deger.setAttributeNode(özellik);
-    }
     
 
-    var modal = document.getElementById("myModal"); 
-
+  
     // let baslat1z= 0;
     // function ddd(){
     //     modal.style.display = "block";
@@ -291,3 +143,42 @@
     //     }, 100);
     // }
     
+
+
+/*-------- RESİMLER------*/
+var $grid = $('.grid').isotope({
+    
+});
+
+var filterFns = {
+ 
+  ium: function() {
+  
+    var name = $(this).find('.name').text();
+    return name.match( /ium$/ );
+  }
+};
+
+$('#filters').on( 'click', 'button', function() {
+  var filterValue = $( this ).attr('data-filter');
+
+  filterValue = filterFns[ filterValue ] || filterValue;
+  $grid.isotope({ filter: filterValue });
+});
+
+
+
+
+
+
+    /* --------YORUM---------*/
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 50,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+
+      

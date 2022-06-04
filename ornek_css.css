@@ -63,7 +63,7 @@ font-style: normal;
     color: greenyellow;
 
 }
- .a.active{
+ .a .active{
 
     color: #FFB742;
  }
@@ -1125,32 +1125,62 @@ border: 5px solid #FFB742;
 
 
 .footeralan{
-    width: auto;
-    height: 500px;
-   
+    width: 100%;
+    
+    background-color: black;
     margin-top: 10%;
+   
 }
 .footeralan .footerıcerık{
     width: 100%;
-height: 400px;
-
-float: left;
 
 
-background-color: black;
+
+    background-color: #212529;
+
 }
+.footerıcerık2{
+    width: 100%;
+    
 
-.footerıcerık .fgrp1{
-    width: 319px;
-height: 208px;
+    margin-top: 5%;
+   
+}
+.footerıcerık2 .altrow{
+    display: flex;
+    flex-wrap: wrap;
 
-margin-right: 10%;
-margin-top: 5%;
-float: right;
+
+  width: 100%;
+    
+}
+.footerıcerık2 .col{
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 2%;
+    height: auto;
+    justify-content: center;
+margin-bottom: 5%;
+}
+.footerıcerık2 .col-6{
+    width: 30%;
+    margin-top: 5%;
+    margin-right: 0;
+    height: auto;
+    float: right;
+    
+}
+.footerıcerık2 .fgrp1{
+    width: auto;
+    max-width: 320px;
+    
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .fgrp1 .fgrp1-1{
-width: 319;
-height: 63px;
+width: 100%;
+
 
 margin-top: 10%;
 
@@ -1167,14 +1197,15 @@ border: 0px;
 .fgrp1-1 .textalan{
     background: #212529;
 border-radius: 49px;
-height: 63px; 
-width: 319px;
+height: 63px;
+width: 100%;
+max-width: 319px;
 
 }
 .textalan .textbox{
     width: 75%;
-    height: 24px;
-    padding: 10px;
+
+    padding: 5px;
     background: transparent;
     outline: 0;
     border: 0px;
@@ -1208,13 +1239,12 @@ font-size: 17.9888px;
 line-height: 36px;
 color: #7B7B7B;
 }
-.footerıcerık .fgrp2{
-    width: 143.46px;
-height: 232.57px;
+.footerıcerık2 .fgrp2{
+    width: 100%;
+    max-width: 143px;
+margin-left: auto;
+margin-right: auto;
 
-margin-right: 10%;
-margin-top: 5%;
-float: right;
 
 }
 .fgrp2 .fbsk{
@@ -1235,12 +1265,12 @@ font-size: 17.9888px;
 line-height: 36px;
 color: #7B7B7B;
 }
-.footerıcerık .fgrp3{
-width: 253.16px;
-height: 129.62px;
-margin-right: 10%;
-margin-top: 5%;
-float: right;
+.footerıcerık2 .fgrp3{
+width: auto;
+   max-width: 253px;
+
+margin-left: auto;
+margin-right: auto;
 }
 .fgrp3 .fbs{
 font-family: 'Poppins';
