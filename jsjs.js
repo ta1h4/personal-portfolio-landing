@@ -28,45 +28,7 @@
         
     }, 50);
 
-    function yorumdegıstır1(){
-        
-    document.getElementById("yrm6").src='ttt.png';
-    document.getElementById("yrm5").src='ttt.png';
-    document.getElementById("yrm4").src='ttt.png';
-    document.getElementById("yrm3").src='yorum.png';
-    document.getElementById("yrm2").src='yorum.png';
-    document.getElementById("yrm1").src='yorum.png';
-    
-    var deger=document.getElementById("yrmbtn1");
-        var özellik=document.createAttribute("class");
-        özellik.value="yorumgecıs";
-        deger.setAttributeNode(özellik);
-        var deger=document.getElementById("yrmbtn2");
-        var özellik=document.createAttribute("class");
-        özellik.value="yorumgecıs2";
-        deger.setAttributeNode(özellik);
-       
-    }
    
-    function yorumdegıstır2(){
-         document.getElementById("yrm1").src='ttt.png';
-    document.getElementById("yrm2").src='ttt.png';
-    document.getElementById("yrm3").src='ttt.png';
-    document.getElementById("yrm4").src='yorum.png';
-    document.getElementById("yrm5").src='yorum.png';
-    document.getElementById("yrm6").src='yorum.png';
-    
-    var deger=document.getElementById("yrmbtn1");
-        var özellik=document.createAttribute("class");
-        özellik.value="yorumgecıs-1";
-        deger.setAttributeNode(özellik);
-        var deger=document.getElementById("yrmbtn2");
-        var özellik=document.createAttribute("class");
-        özellik.value="yorumgecıs2-1";
-        deger.setAttributeNode(özellik);
-        
-    }
-
       
     // var baslat=0;
     // function hepsı(){
@@ -146,37 +108,17 @@
 
 
 /*-------- RESİMLER------*/
-var $grid = $('.grid').isotope({
-    
-});
-
-var filterFns = {
- 
-  ium: function() {
-  
-    var name = $(this).find('.name').text();
-    return name.match( /ium$/ );
-  }
-};
-
-$('#filters').on( 'click', 'button', function() {
-  var filterValue = $( this ).attr('data-filter');
-
-  filterValue = filterFns[ filterValue ] || filterValue;
-  $grid.isotope({ filter: filterValue });
-});
-
-
 
 
 
 
     /* --------YORUM---------*/
+    
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,
         spaceBetween: 50,
         pagination: {
-          el: ".swiper-pagination",
+          el: ".yorumgecıs",
           clickable: true,
         },
       });

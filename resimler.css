@@ -44,12 +44,10 @@
   }
   
   .element-item {
-  
     
-    justify-content: center;
     width: 100%;
       max-width: 390px;
-    margin-left: 3%;
+      margin-left: 10px;
     margin-bottom: 10px;
     
    
@@ -57,16 +55,55 @@
     color: #262524;
   }
   .resimalan{
-    
+    width: 100%;
     max-width:1324px;
     margin-left: auto;
     margin-right: auto;
-
+    display: flex;
+    flex-wrap: wrap;
+  
   
   }
   .resimalan .grid{
+    display: flex;
+    flex-wrap: wrap;
     width:auto;
     height:auto;
-    background-color: red;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
   }
-  
+
+.Website_Design{
+      margin-top: -200px;
+    }
+  @media (max-width: 1250px){
+    .resimalan .grid{
+      display: flex;
+      flex-wrap: wrap;
+      width:auto;
+      height:auto;
+      flex-wrap: wrap;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0px 3% 0px 15%;
+    }
+    .rsm4{
+      margin-top: -200px;
+    }
+    .rsm6{
+      margin-top: -400px;
+    }
+    .Website_Design{
+      margin-top: 10px;
+    }
+    .element-item {
+    
+      width: 100%;
+        max-width: 390px;
+      margin-bottom: 10px;
+     
+      
+    }
+}
