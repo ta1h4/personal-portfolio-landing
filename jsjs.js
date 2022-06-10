@@ -124,10 +124,9 @@
     //   });
      
 
-function yorum(){
-    var dddd=window.innerWidth;
+function yorum( xds){
 
-    if(dddd<1250){
+    if(xds<1250){
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 2,
             spaceBetween: 50,
@@ -149,9 +148,14 @@ function yorum(){
     }
 }
 
-
+var ilkwidth=0;
 let interval222222 = setInterval(function(){
-   
-    yorum();
+    var dddd=window.innerWidth;
+if(ilkwidth!=dddd){
+        yorum(dddd);
+
+}
+ilkwidth=dddd;
+
     
 }, 100);
