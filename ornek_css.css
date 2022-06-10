@@ -14,69 +14,17 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px; 
+   
+}
+ .maxwidth{
+    max-width: 1324px;
 }
 .row{
     display: flex;
     flex-wrap: wrap;
+    justify-content:center;
 }
-.profcontainer{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
-.degercontainer{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.aboutmecontainer{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
-}
-.dlcontainer{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
-    margin-bottom: 150px;
-}
-.rsmcontainer{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
-}
-.rsmcontainer2{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -50px;
-}
-.yrmustcontainer{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
-    
-}
-.yrmcontainer{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    margin-bottom: 200PX;
-}
-.footercontainer{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -50px;
-}
+
 .navbar{
    
 width: 100%;
@@ -114,12 +62,7 @@ border-radius: 50px;
     color: white;
     border: 2px solid #FFB742;
 }
-.navbarrow{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    
-}
+
 .navbar .menu{
 
 padding: 10px;
@@ -179,7 +122,7 @@ margin-top: 100px;
     justify-content: center; 
 }
 
-.ısımalan{
+.namealan{
      width:100%;
 margin-left: auto;
 margin-right: auto;
@@ -194,10 +137,10 @@ font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
 }
-.ısımrenk{
+.namerenk{
     color: #FFB742;
 }
-.ünvanalan{
+.titlealan{
     width:100%;
     display: flex;
     flex-wrap: wrap;
@@ -245,33 +188,21 @@ text-align: center;
 .avatar{
  width: 210px;
 height: 222px;
-background-image:   url("avatar.png");
+background-image:   url("avataaars.png");
 background-repeat:no-repeat;
 
 }
 
 
 .meter{
-    /* width: auto;
-height: 120px;
 
-background-color: re;
-gap: 10%;
-display: flex;
-margin: 0px 10%;
-background-color: red; */
 margin-left: auto;
 margin-right: auto;
 max-width: 1324px;
 }
 
 
-.meterrow{
-    display: flex;
-    flex-wrap: wrap;
-  
 
-}
 .col{
   
     width: 25%;
@@ -292,8 +223,7 @@ max-width: 1324px;
 .col-6{
  
     width: 60%;
-    margin-left: 2%;
-    margin-right: 3%;
+
 }
 .metergrp1{
     width: 32%;
@@ -400,13 +330,8 @@ margin-left: auto;
 margin-right: auto;
 max-width: 1324px;
 }
-.aboutmerow{
-    width: 100%;
-display: flex;
-flex-wrap: wrap;
-}
 
-.aboutmerow .col{
+.aboutme .row .col{
     width: 50%;
 }
 
@@ -415,7 +340,7 @@ flex-wrap: wrap;
     height: auto;
 }
 @media (max-width: 1150px){
-    .aboutmerow .col{
+    .aboutme .row .col{
         width: 100%;
     }
     .aboutme{
@@ -513,33 +438,10 @@ color: #212529;
 
 
 }
-.dillerrow{
-    width: 100%;
-    max-width:1324px ;
-    margin-left: auto;
-    margin-right: auto;
- display: flex;
- flex-wrap: wrap;
-    justify-content:center;
 
 
-}
-.aboutmerow{
-    width: 100%;
-display: flex;
-flex-wrap: wrap;
-}
-
-/* .diller .dd{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-
-margin-left: auto;
-margin-right: auto;
 
 
-} */
 
  .dilbaslık{
 width: 100%;
@@ -565,7 +467,11 @@ color: #FFFFFF;
     color: #FFFFFF;
 
 }
-.dlcol{
+.dilalan{
+    width: 100%;
+    height: auto;
+}
+.dilalan .row .col{
 width: 50%;
 height: 100%;
 
@@ -996,8 +902,11 @@ margin-left: 10px;
 background-color: white;
 border-radius: 15px;
 overflow: hidden;  
-margin-right: auto;
+text-align: left;
+
+margin-right: 15px;
 }
+
 .yldzalan{
     width: 100%;
     height: auto;
@@ -1017,16 +926,55 @@ margin-right: auto;
 .yorumgrp1 .yrmyazı{
     width: 80%;
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-    max-width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px; 
+        
+    max-width: 300px;
     height: auto;
-    background-color: red;
     margin-left:30px;
     margin-right: 30px;
     margin-top:100px;
   
+}
+.yorumgrp1 .yrmprof{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+  display: flex;
+  float: left;
+   
+    
+}
+.yrmprof .pp{
+   background-color: red;
+height: 100%;
+    width: 100%;
+}
+.yrmprof .namealan{
+    width: 100%;
+    margin-left: 10px;
+    
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #000000;
+  
+}
+.yrmprof .name{
+    width: 100%;
+    height:auto;
+    margin: 0px;
+}
+.yrmprof .title{
+    font-family: 'Poppins';
+margin: 0px;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+
 }
 .yorumgrp1.yorumgrp2{
     width: 100%;
@@ -1072,36 +1020,41 @@ padding-left: 47%;
 }
 .footerıcerık2{
     width: 100%;
-    
-
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 5%;
-   
+   display: flex;
+flex-wrap: wrap;
+
 }
-.footerıcerık2 .altrow{
-    display: flex;
-    flex-wrap: wrap;
-
-
-  width: 100%;
+.footermax{
+    margin-left: 1%;
+}
+.footerıcerık2  .col{
+    width: 25%;
+    margin-top: 5%;
+    height: auto;
     
+    justify-content: center;
+margin-bottom: 5%;
 }
-.footerıcerık2 .col{
+.footerıcerık2  .col-2{
     width: 20%;
     margin-top: 5%;
-    margin-left: 2%;
     height: auto;
     justify-content: center;
 margin-bottom: 5%;
 }
-.footerıcerık2 .col-6{
-    width: 30%;
+.footerıcerık2  .col-6{
+    width: 25%;
     margin-top: 5%;
-    margin-right: 0;
+
+    
     height: auto;
     float: right;
     
 }
-.footerıcerık2 .fgrp1{
+.row .fgrp1{
     width: auto;
     max-width: 320px;
     
@@ -1111,7 +1064,6 @@ margin-bottom: 5%;
 }
 .fgrp1 .fgrp1-1{
 width: 100%;
-
 
 margin-top: 10%;
 
@@ -1130,18 +1082,17 @@ border: 0px;
 border-radius: 49px;
 height: 63px;
 width: 100%;
-max-width: 319px;
 
 }
 .textalan .textbox{
-    width: 75%;
+    width: 70%;
 
     padding: 5px;
     background: transparent;
     outline: 0;
     border: 0px;
     font-size: 15px;
-    color: #7C7C7C;
+    color: white;
 
     float: left;
 
@@ -1184,7 +1135,7 @@ margin-right: auto;
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 700;
-font-size: 21.5865px;
+font-size: 21px;
 line-height: 32px;
 color: #F5FBF2;
 }
@@ -1195,6 +1146,7 @@ font-weight: 500;
 font-size: 17.9888px;
 line-height: 36px;
 color: #7B7B7B;
+text-decoration: none;
 }
 .footerıcerık2 .fgrp3{
 width: auto;
@@ -1270,3 +1222,82 @@ color: #000000;
     border: 1px solid #888;
     width: 80%;
   }
+
+  input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:block;
+    border:none;
+    border-radius: 4px;
+    box-sizing: border-box;
+      background-color: white;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+     text-align: center;
+     align:center;
+  }
+
+  input[type=text]:hover{
+  border:none;
+    border-bottom:2px solid red;
+  }
+  input[type=submit] {
+    width: 80%;
+    background-color: #FFB742;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:white;
+    color:black;
+  }
+ 
+
+  label{
+    color:white;
+    }
+  textarea{
+  width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:block;
+  
+    border-radius: 4px;
+    box-sizing: border-box;
+      background-color: white;
+    
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+     
+     align:center;
+  }
+
+  .Contact{
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+    display: flex;
+float: left;   
+  }
+  .form{
+
+  }
+  .Contact .col-2{
+    width: 50%;
+  }
+  
+  .Contact .col-4{
+    width: 50%;
+  }
+  .harıta{
+    height:100%;
+    width:100%;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    }

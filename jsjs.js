@@ -114,13 +114,44 @@
 
     /* --------YORUM---------*/
     
-    var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 50,
-        pagination: {
-          el: ".yorumgecıs",
-          clickable: true,
-        },
-      });
+    // var swiper = new Swiper(".mySwiper", {
+    //     slidesPerView: 3,
+    //     spaceBetween: 50,
+    //     pagination: {
+    //       el: ".yorumgecıs",
+    //       clickable: true,
+    //     },
+    //   });
+     
 
-      
+function yorum(){
+    var dddd=window.innerWidth;
+
+    if(dddd<1250){
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 50,
+            pagination: {
+              el: ".yorumgecıs",
+              clickable: true,
+            },
+          });
+    }
+    else{
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 50,
+            pagination: {
+              el: ".yorumgecıs",
+              clickable: true,
+            },
+          });
+    }
+}
+
+
+let interval222222 = setInterval(function(){
+   
+    yorum();
+    
+}, 100);
